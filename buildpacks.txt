@@ -1,0 +1,83 @@
+Getting buildpacks as vladimir_cuevas...
+
+position   name                                           stack        enabled   locked   filename
+1          appmetrics_nodejs8_buildpack                   cflinuxfs3   true      false    nodejs-buildpack-cflinuxfs3-v1.7.8.zip
+2          hwc_buildpack                                  windows      true      false    hwc_buildpack-cached-windows-v3.1.13.zip
+3          java_buildpack_offline                         cflinuxfs3   true      false    java-buildpack-offline-cflinuxfs3-v4.36.zip
+4          ruby_buildpack                                 cflinuxfs3   true      false    ruby_buildpack-cached-cflinuxfs3-v1.8.30.zip
+5          nodejs_buildpack                               cflinuxfs3   true      false    nodejs_buildpack-cached-cflinuxfs3-v1.7.41.zip
+6          go_buildpack                                   cflinuxfs3   true      false    go_buildpack-cached-cflinuxfs3-v1.9.25.zip
+7          apache-buildpack                               cflinuxfs3   true      false    httpd-2.4.18.zip
+8          staticfile_buildpack                           cflinuxfs3   true      false    staticfile_buildpack-cached-cflinuxfs3-v1.5.15.zip
+9          python_buildpack                               cflinuxfs3   true      false    python_buildpack-cached-cflinuxfs3-v1.7.29.zip
+10         php_buildpack                                  cflinuxfs3   true      false    php_buildpack-cached-cflinuxfs3-v4.4.30.zip
+11         dotnet_core_buildpack                          cflinuxfs3   true      false    dotnet-core_buildpack-cached-cflinuxfs3-v2.3.22.zip
+12         binary_buildpack                               cflinuxfs3   true      false    binary_buildpack-cached-cflinuxfs3-v1.0.36.zip
+13         dicf_dotnet_core_buildpack_227_cflinuxfs3      cflinuxfs3   true      false    dotnet-core_buildpack-cached-cflinuxfs3-v2.2.7+1551456071.zip
+14         dicf_java_buildpack_4172                       cflinuxfs3   true      false    java-buildpack-offline-v4.17.2.zip
+15         dicf_dotnet_core_buildpack_228_cflinuxfs3      cflinuxfs3   true      false    dotnet-core_buildpack-cached-cflinuxfs3-v2.2.8+1553099511.zip
+16         binary_buildpack                               windows      true      false    binary_buildpack-cached-windows-v1.0.36.zip
+17         dicf_java_buildpack_4172                                    true      false    java-buildpack-offline-v4.17.2.zip
+18         redis-session-buildpack-win-x64                             true      false    redis-session-buildpack-win-x64.zip
+19         OracleBuildPack-win-x64-100                                 true      false    OracleBuildPack-win-x64-1.0.0.zip
+20         OracleBuildPack-win-x86-100                                 true      false    OracleBuildPack-win-x86-1.0.0.zip
+21         dicf_hwc_buildpack_3113_windows                windows      true      false    hwc_buildpack-cached-windows-v3.1.13%2B1575390062.zip
+22         dicf_dotnet_core_buildpack_234_cflinuxfs3      cflinuxfs3   true      false    dotnet-core_buildpack-cached-cflinuxfs3-v2.3.4+1579798622.zip
+23         dicf_nodejs_buildpack_1710_cflinuxfs3          cflinuxfs3   true      false    nodejs_buildpack-cached-cflinuxfs3-v1.7.10+1580745394.zip
+24         dicf_python_buildpack_177_cflinuxfs3           cflinuxfs3   true      false    python_buildpack-cached-cflinuxfs3-v1.7.7+1580738952.zip
+25         dicf_php_buildpack_447_cflinuxfs3              cflinuxfs3   true      false    php_buildpack-cached-cflinuxfs3-v4.4.7+1581014630.zip
+26         dicf_go_buildpack_196_cflinuxfs3               cflinuxfs3   true      false    go_buildpack-cached-cflinuxfs3-v1.9.6+1580745077.zip
+27         dicf_java_buildpack_428                                     true      false    java-buildpack-offline-v4.28.zip
+28         dicf_ruby_buildpack_latest_189_cflinuxfs3      cflinuxfs3   true      false    ruby_buildpack-cached-cflinuxfs3-v1.8.9+1580744679.zip
+29         dicf_r_buildpack_111_cflinuxfs3                cflinuxfs3   true      false    r_buildpack-cached-cflinuxfs3-v1.1.1+1576508462.zip
+30         dicf_nginx_buildpack_115_cflinuxfs3            cflinuxfs3   true      false    nginx_buildpack-cached-cflinuxfs3-v1.1.5+1580739060.zip
+31         dicf_binary_buildpack_1036_cflinuxfs3          cflinuxfs3   true      false    binary_buildpack-cached-cflinuxfs3-v1.0.36+1576684179.zip
+32         dicf_binary_buildpack_1036_windows             windows      true      false    binary_buildpack-cached-windows-v1.0.36+1576684184.zip
+33         dicf_staticfile_buildpack_154_cflinuxfs3       cflinuxfs3   true      false    staticfile_buildpack-cached-cflinuxfs3-v1.5.4+1580738985.zip
+34         nr_dotnetcore_extension_114                    cflinuxfs3   true      false    newrelic-dotnetcore-extension_buildpack-cached-cflinuxfs3-v1.1.4.zip
+35         nr_hwc_extension_114                           windows      true      false    newrelic-hwc-extension_buildpack-cached-windows-v1.1.4.zip
+36         nginx_buildpack                                cflinuxfs3   true      false    nginx_buildpack-cached-cflinuxfs3-v1.1.20.zip
+37         r_buildpack                                    cflinuxfs3   true      false    r_buildpack-cached-cflinuxfs3-v1.1.12.zip
+38         dicf_dotnet_core_buildpack_239_cflinuxfs3      cflinuxfs3   true      false    dotnet-core_buildpack-cached-cflinuxfs3-v2.3.9+1586804385.zip
+39         dicf_hwc_buildpack_3114_windows                windows      true      false    hwc_buildpack-cached-windows-v3.1.14+1583763700.zip
+40         dicf_java_buildpack_4291                                    true      false    java-buildpack-offline-v4.29.1.zip
+41         dicf_nodejs_buildpack_1717_cflinuxfs3          cflinuxfs3   true      false    nodejs_buildpack-cached-cflinuxfs3-v1.7.17+1586804472.zip
+42         dicf_go_buildpack_1911_cflinuxfs3              cflinuxfs3   true      false    go_buildpack-cached-cflinuxfs3-v1.9.11+1586803954.zip
+43         dicf_r_buildpack_113_cflinuxfs3                cflinuxfs3   true      false    r_buildpack-cached-cflinuxfs3-v1.1.3+1586378269.zip
+44         dicf_staticfile_buildpack_155_cflinuxfs3       cflinuxfs3   true      false    staticfile_buildpack-cached-cflinuxfs3-v1.5.5+1583763138.zip
+45         dicf_python_buildpack_1712_cflinuxfs3          cflinuxfs3   true      false    python_buildpack-cached-cflinuxfs3-v1.7.12+1585756515.zip
+46         dicf_php_buildpack_4412_cflinuxfs3             cflinuxfs3   true      false    php_buildpack-cached-cflinuxfs3-v4.4.12+1586804220.zip
+47         dicf_nginx_buildpack_117_cflinuxfs3            cflinuxfs3   true      false    nginx_buildpack-cached-cflinuxfs3-v1.1.7+1585841382.zip
+48         dicf_ruby_buildpack_1815_cflinuxfs3            cflinuxfs3   true      false    ruby_buildpack-cached-cflinuxfs3-v1.8.15+1585842208.zip
+49         dicf_hwc_buildpack_3115_windows                windows      true      false    hwc_buildpack-cached-windows-v3.1.15+1590533920.zip
+50         dicf_dotnet_core_buildpack_2312_cflinuxfs3     cflinuxfs3   true      false    dotnet-core_buildpack-cached-cflinuxfs3-v2.3.12+1594236641.zip
+51         dicf_python_buildpack_1716_cflinuxfs3          cflinuxfs3   true      false    python_buildpack-cached-cflinuxfs3-v1.7.16+1594680983.zip
+52         dicf_go_buildpack_1914_cflinuxfs3              cflinuxfs3   true      false    go_buildpack-cached-cflinuxfs3-v1.9.14+1591705623.zip
+53         dicf_r_buildpack_117_cflinuxfs3                cflinuxfs3   true      false    r_buildpack-cached-cflinuxfs3-v1.1.7+1594046468.zip
+54         dicf_java_buildpack_432                                     true      false    java-buildpack-offline-v4.32.zip
+55         dicf_nodejs_buildpack_1724_cflinuxfs3          cflinuxfs3   true      false    nodejs_buildpack-cached-cflinuxfs3-v1.7.24+1594231227.zip
+56         dicf_php_buildpack_4418_cflinuxfs3             cflinuxfs3   true      false    php_buildpack-cached-cflinuxfs3-v4.4.18+1594681439.zip
+57         dicf_ruby_buildpack_1821_cflinuxfs3            cflinuxfs3   true      false    ruby_buildpack-cached-cflinuxfs3-v1.8.21+1594320746.zip
+58         dicf_staticfile_buildpack_159_cflinuxfs3       cflinuxfs3   true      false    staticfile_buildpack-cached-cflinuxfs3-v1.5.9+1594681141.zip
+59         dicf_nginx_buildpack_1111_cflinuxfs3           cflinuxfs3   true      false    nginx_buildpack-cached-cflinuxfs3-v1.1.11+1594222744.zip
+60         dicf_newrelic_dotnetcore_extension_115         cflinuxfs3   true      false    newrelic-dotnetcore-extension_buildpack-cached-cflinuxfs3-v1.1.5.zip
+61         dicf_newrelic_hwc_extension_115                windows      true      false    newrelic-hwc-extension_buildpack-cached-windows-v1.1.5.zip
+62         dicf_aternity-apm-dotnet-core-buildpack_1171                true      false    aternity-apm-dotnet-core-buildpack-11.7.1_BL521.zip
+63         dicf_dotnet_core_buildpack_2320_cflinuxfs3     cflinuxfs3   true      false    dotnet-core_buildpack-cached-cflinuxfs3-v2.3.20%2B1607980299.zip
+64         dicf_java_buildpack_435                                     true      false    java-buildpack-offline-v4.35.zip
+65         dicf_python_buildpack_1727_cflinuxfs3          cflinuxfs3   true      false    python_buildpack-cached-cflinuxfs3-v1.7.27%2B1607979980.zip
+66         dicf_nodejs_buildpack_1739_cflinuxfs3          cflinuxfs3   true      false    nodejs_buildpack-cached-cflinuxfs3-v1.7.39%2B1608568228.zip
+67         dicf_php_buildpack_4428_cflinuxfs3             cflinuxfs3   true      false    php_buildpack-cached-cflinuxfs3-v4.4.28%2B1607701070.zip
+68         dicf_go_buildpack_1924_cflinuxfs3              cflinuxfs3   true      false    go_buildpack-cached-cflinuxfs3-v1.9.24%2B1607980484.zip
+69         dicf_r_buildpack_1111_cflinuxfs3               cflinuxfs3   true      false    r_buildpack-cached-cflinuxfs3-v1.1.11%2B1605198271.zip
+70         dicf_nginx_buildpack_1120_cflinuxfs3           cflinuxfs3   true      false    nginx_buildpack-cached-cflinuxfs3-v1.1.20%2B1608568257.zip
+71         dicf_staticfile_buildpack_1515_cflinuxfs3      cflinuxfs3   true      false    staticfile_buildpack-cached-cflinuxfs3-v1.5.15%2B1608567704.zip
+72         dicf_newrelic_hwc_extension_116                windows      true      false    newrelic-hwc-extension_buildpack-cached-windows-v1.1.6.zip
+73         dicf_newrelic_dotnetcore_extension_116         cflinuxfs3   true      false    newrelic-dotnetcore-extension_buildpack-cached-cflinuxfs3-v1.1.6.zip
+74         dicf_ruby_buildpack_1828_cflinuxfs3            cflinuxfs3   true      false    ruby_buildpack-cached-cflinuxfs3-v1.8.28%2B1608146766.zip
+75         dicf_dotnet_core_buildpack_2325_cflinuxfs3     cflinuxfs3   true      false    dotnet-core_buildpack-cached-cflinuxfs3-v2.3.25%2B1615402704.zip
+76         dicf_newrelic_hwc_extension_117                windows      true      false    newrelic-hwc-extension_buildpack-windows-v1.1.7.zip
+77         dicf_newrelic_dotnetcore_extension_117         cflinuxfs3   true      false    newrelic-dotnetcore-extension_buildpack-cached-cflinuxfs3-v1.1.7.zip
+78         dicf_python_buildpack_1734_cflinuxfs3          cflinuxfs3   true      false    python_buildpack-cached-cflinuxfs3-v1.7.34%2B1615922713.zip
+79         dicf_java_buildpack_437                                     true      false    java-buildpack-offline-v4.37.zip
+80         dicf_java_buildpack_latest                                  true      false    java-buildpack-offline-v4.37.zip
